@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="15dp"
+        android:text="A English to Bangla Dictionary implemented by Perfect Hashing with some limited words."
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:onClick="ClickBackAbout"
+        android:layout_marginLeft="5dp"
+
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="25sp"
+
+        android:gravity="center"
+        android:background="@drawable/rectangle_border"/>
+
+</RelativeLayout>
